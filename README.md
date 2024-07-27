@@ -5,7 +5,7 @@
 2. Fixed an issue where the cursor speed would lag the cursor at certain frame rates
 3. Fixed an issue where the options file called a nonexistent function
 
-## Current no plans to add additional features.
+## Currently I have no plans to add additional features.
 There is an ability to change the size and alpha of the glow effect:
 texture:SetAlpha(0.5) in core.lua will change the glow effect
 local SIZE_MODIFIER = 6; in core.lua will change the how the size scales with speed
