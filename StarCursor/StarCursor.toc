@@ -1,5 +1,5 @@
-## Interface: 90105
-## Title: StarCursor |cff9966ff<duality.ps>
+## Interface: 110000
+## Title: StarCursor
 ## Notes: Makes it easy to keep track of where your cursor is located.
 ## Author: duality.ps @ Ticstyle
 ## Version: r10-retail
