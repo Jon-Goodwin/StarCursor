@@ -9,8 +9,10 @@
 
 ### I have added some slash commands
 /starcolour <r> <g> <b> This allows you to set the color (0-1)
+
 /staralpha <a> this allows you to set the alpha (0-1)
 
 ### I added a version for classic
 Really the only change needed here is to change the interface version, which just makes it not say it is outdated
+
 The regular version should work just fine on classic.
