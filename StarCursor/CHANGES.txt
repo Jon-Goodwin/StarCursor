@@ -1,3 +1,7 @@
+r11
+* Fix for options file calling non existent function, I may add this functionality at some point
+* Fix for texture not being locked to cursor speed
+
 r10
 * TOC update for Retail patch 9.1.5
 * Bygfix for frozen animation
