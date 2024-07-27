@@ -1,6 +1,6 @@
 r11
-* Fix for options file calling non existent function, I may add this functionality at some point
-* Fix for texture not being locked to cursor speed
+* Fix for texture speed
+* Fix for options file calling non existent function
 
 r10
 * TOC update for Retail patch 9.1.5

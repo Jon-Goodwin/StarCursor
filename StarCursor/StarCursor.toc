@@ -9,9 +9,6 @@
 ## X-Curse-Repository-ID: wow/starcursor/mainline
 ## DefaultState: enabled
 
-embeds.xml
-
 locale\enUS.lua
 
 core.lua
-options.lua
