@@ -1,6 +1,7 @@
-r11
+New:
 * Fix for texture speed
 * Fix for options file calling non existent function
+* Added Slash commands
 
 r10
 * TOC update for Retail patch 9.1.5

@@ -1,5 +1,5 @@
 -- Slash command to change color
-SLASH_COLORCHANGE1 = "/StarColour"
+SLASH_COLORCHANGE1 = "/starcolour"
 SlashCmdList["COLORCHANGE"] = function(msg)
     local r, g, b = strsplit(" ", msg)
     r, g, b = tonumber(r), tonumber(g), tonumber(b)
@@ -11,7 +11,7 @@ SlashCmdList["COLORCHANGE"] = function(msg)
 end
 
 -- Slash command to adjust alpha
-SLASH_ALPHACHANGE1 = "/StarAlpha"
+SLASH_ALPHACHANGE1 = "/staralpha"
 SlashCmdList["ALPHACHANGE"] = function(msg)
     local alpha = tonumber(msg)
     if alpha and alpha >= 0 and alpha <= 1 then
@@ -21,11 +21,11 @@ SlashCmdList["ALPHACHANGE"] = function(msg)
 end
 
 -- Slash command for help
-SLASH_HELP1 = "/StarHelp"
+SLASH_HELP1 = "/starcursor"
 SlashCmdList["HELP"] = function()
-    print("StarCursor Help:")
-    print("/StarColour <r> <g> <b> - Change texture color (0-1)")
-    print("/StarColour 1 1 1 - For white")
-    print("/StarAlpha <alpha> - Change texture alpha (0-1)")
-    print("/StarAlpha 1 - For full alpha")
+    print("StarCursor:")
+    print("/starcolour <r> <g> <b> - Change texture color (0-1)")
+    print("/starcolour 1 1 1 - For white")
+    print("/staralpha <alpha> - Change texture alpha (0-1)")
+    print("/staralpha 1 - For full alpha")
 end

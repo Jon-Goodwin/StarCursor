@@ -14,6 +14,8 @@ frame:RegisterEvent("PLAYER_LOGOUT")
 
 frame:SetScript("OnEvent", function(self, event, arg1)
   if event == "ADDON_LOADED" and arg1 == "StarCursor" then
+    -- Print slash commands
+    print("/starcursor - for options")
     -- Our saved variables, if they exist, have been loaded at this point.
     if StarCursorSettings then
         -- Apply the saved settings
