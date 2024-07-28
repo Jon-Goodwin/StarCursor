@@ -1,5 +1,11 @@
 # StarCursor Addon
 
+## Install
+click the green code button and download as zip.
+Inside StarCursor -- main extract the Starcursor folder to retail interface addons
+extract the StarCursorClassic folder to classic interface addons
+
+
 ## Major Fixes
 1. Fixed an issue which would cause the cursor to be locked at max size and brightness
 2. Fixed an issue where the cursor speed would lag the cursor at certain frame rates
