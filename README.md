@@ -17,7 +17,8 @@ extract the StarCursorClassic folder to classic interface addons
 /starcolour opens a color picker to choose the color and opacity of the texture
 
 ### I added a version for classic
-This version has an issue with the texture lagging behind the cursor, unfortunately I can't figure this out yet.
+This version has an issue with the texture lagging behind the cursor, unfortunately I can't figure this out yet. Though I've looked at some other cursor
+addons and they seem to have the same problem, so its possible this cant be fixed in classic.
 
 It also lacks the color wheel because the color wheel works differently in classic. I will try to fix the issue with the lagging texture at least
 
