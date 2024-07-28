@@ -74,7 +74,7 @@ local function OnUpdate(_, elapsed)
     else
       StarCursor.texture:SetHeight(size);
       StarCursor.texture:SetWidth(size);
-      StarCursor.texture:SetPoint("CENTER", UIParent, "BOTTOMLEFT", (x + 0.5 * dX) / scale, (y + 0.5 * dY) / scale);
+      StarCursor.texture:SetPoint("CENTER", UIParent, "BOTTOMLEFT", (x + dX) / scale, (y + dY) / scale);
       StarCursor.texture:Show();
     end
   else
