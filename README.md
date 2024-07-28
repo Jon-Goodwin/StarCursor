@@ -16,3 +16,10 @@
 Really the only change needed here is to change the interface version, which just makes it not say it is outdated
 
 The regular version should work just fine on classic.
+
+### To do list
+I want to replace the current slash commands which are a bit clunky with a color picker wheel frame and the ability
+
+to set color codes, also I might add hard coded values for setting class colors.
+
+Im also planning to add some customization for size and the growth rate of the texture
