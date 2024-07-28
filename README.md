@@ -13,11 +13,13 @@
 /staralpha <a> this allows you to set the alpha (0-1)
 
 ### I added a version for classic
-Really the only change needed here is to change the interface version, which just makes it not say it is outdated
+This version has an issue with the texture lagging behind the cursor, unfortunately I can't figure this out yet.
 
-The regular version should work just fine on classic.
+It also lacks the color wheel because the color wheel works differently in classic. I will try to fix the issue with the lagging texture at least
 
 ## To do list
+The Cl
+
 I want to replace the current slash commands which are a bit clunky with a color picker wheel frame and the ability
 to set color codes, also I might add hard coded values for setting class colors.
 
