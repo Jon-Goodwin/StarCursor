@@ -49,6 +49,8 @@ local function isNan(value)
   return value ~= value;
 end
 
+colorPickerOpen = false
+
 local function OnUpdate(_, elapsed)
   if isNan(speed) then speed = 0; end
   if isNan(x) then x = 0; end
@@ -65,12 +67,24 @@ local function OnUpdate(_, elapsed)
   local size = speed / SIZE_MODIFIER - MIN_SIZE;
   if size > 0 then
     local scale = UIParent:GetEffectiveScale();
-    StarCursor.texture:SetHeight(size);
-    StarCursor.texture:SetWidth(size);
-    StarCursor.texture:SetPoint("CENTER", UIParent, "BOTTOMLEFT", (x + 0.5 * dX) / scale, (y + 0.5 * dY) / scale);
-    StarCursor.texture:Show();
+    if ColorPickerFrame:IsVisible() then
+      StarCursor.texture:SetHeight(100);
+      StarCursor.texture:SetWidth(100);
+      StarCursor.texture:SetPoint("CENTER", UIParent, "CENTER", 0, 50);  -- Set position to center of screen
+    else
+      StarCursor.texture:SetHeight(size);
+      StarCursor.texture:SetWidth(size);
+      StarCursor.texture:SetPoint("CENTER", UIParent, "BOTTOMLEFT", (x + 0.5 * dX) / scale, (y + 0.5 * dY) / scale);
+      StarCursor.texture:Show();
+    end
   else
-    StarCursor.texture:Hide();
+    if ColorPickerFrame:IsVisible() then
+      StarCursor.texture:SetHeight(100);
+      StarCursor.texture:SetWidth(100);
+      StarCursor.texture:SetPoint("CENTER", UIParent, "CENTER", 0, 50);  -- Set position to center of screen
+    else
+      StarCursor.texture:Hide();
+    end
   end
 end
 
