@@ -1,6 +1,4 @@
 -- Slash command to open color picker
-colorPickerOpen = false
-
 SLASH_COLORPICKER1 = "/starcolour"
 SlashCmdList["COLORPICKER"] = function()
     local prevr, prevg, prevb, preva = StarCursor.texture:GetVertexColor()
