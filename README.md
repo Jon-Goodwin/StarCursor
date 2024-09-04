@@ -1,5 +1,10 @@
 # StarCursor Addon
 
+## Known Issues
+
+I'm aware of the implementation of the colour changing freezing the cursor and have removed that from the current version.
+I'll try to fix it.
+
 ## Install
 click the green code button and download as zip.
 Inside StarCursor -- main extract the Starcursor folder to retail interface addons
