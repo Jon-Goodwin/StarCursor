@@ -15,5 +15,3 @@ embeds.xml
 locale\enUS.lua
 
 core.lua
-
-options.lua
