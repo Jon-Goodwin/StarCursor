@@ -10,13 +10,11 @@ StarCursor.texture:SetBlendMode("ADD");
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("ADDON_LOADED")
 frame:RegisterEvent("PLAYER_LOGOUT")
-
-
 frame:SetScript("OnEvent", function(self, event, arg1)
   if event == "ADDON_LOADED" and arg1 == "StarCursor" then
     -- Print slash commands
     print("/starcursor - for options")
-    -- Our saved variables, if they exist, have been loaded at this point.
+    -- saved variables are loaded
     if StarCursorSettings then
         -- Apply the saved settings
         StarCursor.texture:SetVertexColor(StarCursorSettings.r, StarCursorSettings.g, StarCursorSettings.b, StarCursorSettings.alpha or 0.5);
@@ -48,8 +46,6 @@ local MIN_SIZE = 16;
 local function isNan(value)
   return value ~= value;
 end
-
-colorPickerOpen = false
 
 local function OnUpdate(_, elapsed)
   if isNan(speed) then speed = 0; end
